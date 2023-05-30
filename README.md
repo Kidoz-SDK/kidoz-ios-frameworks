@@ -1,4 +1,4 @@
-# CocoaMaria
+# KidozSDK 
 
 
 ## Example
