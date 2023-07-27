@@ -15,5 +15,5 @@ Pod::Spec.new do |spec|
     spec.ios.deployment_target  = "10.0"
   
     # Published binaries
-    spec.vendored_frameworks = "KidozSDK.xcframework"
+    spec.vendored_frameworks = "KidozSDK/KidozSDK.xcframework"
   end
