@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
     spec.documentation_url  = "https://github.com/Kidoz-SDK/KIDOZ_iOS_SDK_New_Example"
     spec.license            = "https://github.com/Kidoz-SDK/KIDOZ_iOS_SDK_New_Example/blob/master/LICENSE"
     spec.author             = { "KIDOZ LTD" => "maria@kidoz.net" }
-    spec.source             = { :http => https://github.com/Kidoz-SDK/kidoz-ios-frameworks/raw/main/mediation/applovin/KidozApplovinAdapter-3.3.3.zip' }
+    spec.source             = { :http => 'https://github.com/Kidoz-SDK/kidoz-ios-frameworks/raw/main/mediation/applovin/KidozApplovinAdapter-3.3.3.zip' }
     spec.swift_version      = "5.3"
   
     # Supported deployment targets
