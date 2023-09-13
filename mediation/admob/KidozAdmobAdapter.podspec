@@ -10,9 +10,8 @@ Pod::Spec.new do |spec|
     spec.author             = { "KIDOZ LTD" => "maria@kidoz.net" }
     spec.source             = { :http => 'https://github.com/Kidoz-SDK/kidoz-ios-frameworks/raw/main/mediation/admob/KidozAdmobAdapter-1.0.1.zip' }
     spec.swift_version      = "5.3"
-    spec.pod_target_xcconfig     = { "OTHER_LDFLAGS" => "-lObjC" }
-      spec.pod_target_xcconfig  = { "EXCLUDED_ARCHS[sdk=iphonesimulator*]" => "arm64" }
-    spec.user_target_xcconfig = { "EXCLUDED_ARCHS[sdk=iphonesimulator*]" => "arm64" }
+	spec.dependency 'Google-Mobile-Ads-SDK', '>= 10.8.0'
+    spec.dependency 'KidozSDK', '>= 9.0.0'
     # Supported deployment targets
     spec.ios.deployment_target  = "10.0"
   
