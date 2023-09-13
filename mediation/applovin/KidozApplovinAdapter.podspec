@@ -10,8 +10,8 @@ Pod::Spec.new do |spec|
     spec.author             = { "KIDOZ LTD" => "maria@kidoz.net" }
     spec.source             = { :http => 'https://github.com/Kidoz-SDK/kidoz-ios-frameworks/raw/main/mediation/applovin/KidozApplovinAdapter-1.0.1.zip' }
     spec.swift_version      = "5.3"
-    pod_target_xcconfig     = { "OTHER_LDFLAGS" => "-ObjC" }
-  
+	spec.dependency 'AppLovinSDK', '>= 11.4.4'
+    spec.dependency 'KidozSDK', '>= 9.0.0'
     # Supported deployment targets
     spec.ios.deployment_target  = "10.0"
   
