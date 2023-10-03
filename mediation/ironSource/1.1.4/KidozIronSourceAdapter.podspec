@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
     spec.license            = "https://github.com/Kidoz-SDK/KIDOZ_iOS_SDK_New_Example/blob/master/LICENSE"
     spec.author             = { "KIDOZ LTD" => "maria@kidoz.net" }
     spec.source             = { :http => 'https://github.com/Kidoz-SDK/kidoz-ios-frameworks/raw/main/mediation/ironSource/1.1.4/KidozIronSourceAdapter-1.1.4.zip' }
-    spec.swift_version      = "5.3"
+    spec.swift_version      = "5.8"
     spec.dependency 'IronSourceSDK', '>= 7.3.1.0'
     spec.dependency 'KidozSDK', '>= 9.0.0'
     spec.ios.deployment_target  = "10.0"
