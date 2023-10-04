@@ -10,8 +10,8 @@ Pod::Spec.new do |spec|
     spec.author             = { "KIDOZ LTD" => "maria@kidoz.net" }
     spec.source             = { :http => 'https://github.com/Kidoz-SDK/kidoz-ios-frameworks/raw/main/KidozSDK/9.0.1/KidozSDK-9.0.1.zip' }
     spec.swift_version      = "5.3"
-    spec.pod_target_xcconfig    = { "OTHER_LDFLAGS" => "-ObjC -lc++" }
-  
+    spec.user_target_xcconfig    = { "OTHER_LDFLAGS" => "-lc++ -ObjC" }
+
     # Supported deployment targets
     spec.ios.deployment_target  = "10.0"
   
