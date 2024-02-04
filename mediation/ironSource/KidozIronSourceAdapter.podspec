@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
     spec.source             = { :http => 'https://github.com/Kidoz-SDK/kidoz-ios-frameworks/raw/main/mediation/ironSource/{POD_VERSION}/KidozIronSourceAdapter-{POD_VERSION}.zip' }
     spec.swift_version      = "5.3"
     spec.dependency 'IronSourceSDK', '>= 7.5.0.0'
-    spec.dependency 'KidozSDK', '>= 9.0.1'
+    spec.dependency 'KidozSDK', '>= {SDK_POD_VERSION}'
     spec.ios.deployment_target  = "11.0"
   
     # Published binaries
