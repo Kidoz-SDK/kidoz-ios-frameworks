@@ -17,4 +17,7 @@ Pod::Spec.new do |spec|
   
     # Published binaries
     spec.vendored_frameworks = "KidozSDK/KidozSDK.xcframework"
+
+    # Privacy Report
+    spec.resource_bundles = {'PrivacyInfo' => ['KidozSDK/PrivacyInfo.xcprivacy']}
   end
