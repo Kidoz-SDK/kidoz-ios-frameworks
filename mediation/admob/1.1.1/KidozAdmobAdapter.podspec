@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name               = "KidozAdmobAdapter"
-    spec.version            = "{POD_VERSION}"
+    spec.version            = "1.1.1"
     spec.summary            = "Kidoz SDK for COPPA Ads (AdMob Mediation Adapter)."
     spec.description        = "The Kidoz SDK is the leading COPPA Compliant Monetization SDK for app developers supporting Rewarded Video, Interstitial, and Mobile Banner positions. With the Kidoz SDK installed, you can compliantly monetizes your COPPA traffic with safe and relevant ads from companies such as Lego, Disney, and Mattel. Kidoz has a global sales force and offers developers high paying ads from every region of the world."
     spec.platform = :ios, '11.0'
@@ -8,10 +8,10 @@ Pod::Spec.new do |spec|
     spec.documentation_url  = "https://github.com/Kidoz-SDK/kidoz-mobile-sdk/blob/main/README.md"
     spec.license            = "https://github.com/Kidoz-SDK/kidoz-mobile-sdk/blob/main/LICENSE.md"
     spec.author             = { "KIDOZ LTD" => "maria@kidoz.net" }
-    spec.source             = { :http => 'https://github.com/Kidoz-SDK/kidoz-ios-frameworks/raw/main/mediation/admob/{POD_VERSION}/KidozAdmobAdapter-{POD_VERSION}.zip' }
+    spec.source             = { :http => 'https://github.com/Kidoz-SDK/kidoz-ios-frameworks/raw/main/mediation/admob/1.1.1/KidozAdmobAdapter-1.1.1.zip' }
     spec.swift_version      = "5.3"
-	spec.dependency 'Google-Mobile-Ads-SDK', '>= 10.8.0'
-    spec.dependency 'KidozSDK', '>= {SDK_POD_VERSION}'
+    spec.dependency 'Google-Mobile-Ads-SDK', '>= 10.8.0'
+    spec.dependency 'KidozSDK', '>= 9.1.3'
     # Supported deployment targets
     spec.ios.deployment_target  = "11.0"
   
