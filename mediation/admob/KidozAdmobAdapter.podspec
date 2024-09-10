@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
 	spec.dependency 'Google-Mobile-Ads-SDK', '>= 10.8.0'
     spec.dependency 'KidozSDK', '>= {SDK_POD_VERSION}'
     # Supported deployment targets
-    spec.ios.deployment_target  = "11.0"
+    spec.ios.deployment_target  = "12.0"
   
     # Published binaries
     spec.vendored_frameworks = "KidozAdmobAdapter/KidozAdmobAdapter.xcframework"
