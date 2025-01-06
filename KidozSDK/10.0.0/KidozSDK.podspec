@@ -5,10 +5,10 @@ Pod::Spec.new do |spec|
     spec.description        = "KIDOZ SDK provides effective quality monetization that is fully COPPA and GDPR compliant."
     spec.platform = :ios, '12.0'
     spec.homepage           = "https://kidoz.net/"
-    spec.documentation_url  = "https://github.com/Kidoz-SDK/kidoz-mobile-sdk/blob/main/README.md"
-    spec.license            = "https://github.com/Kidoz-SDK/kidoz-mobile-sdk/blob/main/LICENSE.md"
+    spec.documentation_url  = "https://github.com/Kidoz-SDK/kidoz-mobile-sdk/blob/beta/README.md"
+    spec.license            = "https://github.com/Kidoz-SDK/kidoz-mobile-sdk/blob/beta/LICENSE.md"
     spec.author             = { "KIDOZ LTD" => "yarden@kidoz.net" }
-    spec.source             = { :http => 'https://github.com/Kidoz-SDK/kidoz-ios-frameworks/raw/main/KidozSDK/10.0.0/KidozSDK-10.0.0.zip' }
+    spec.source             = { :http => 'https://github.com/Kidoz-SDK/kidoz-ios-frameworks/raw/beta/KidozSDK/10.0.0/KidozSDK-10.0.0.zip' }
     spec.swift_version      = "5.3"
     spec.user_target_xcconfig    = { "OTHER_LDFLAGS" => "-lc++ -ObjC" }
   
