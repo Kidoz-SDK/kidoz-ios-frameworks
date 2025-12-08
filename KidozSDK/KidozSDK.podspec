@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
     spec.documentation_url  = "https://github.com/Kidoz-SDK/kidoz-mobile-sdk/blob/main/README.md"
     spec.license            = "https://github.com/Kidoz-SDK/kidoz-mobile-sdk/blob/main/LICENSE.md"
     spec.author             = { "KIDOZ LTD" => "maria@kidoz.net" }
-    spec.source             = { :http => 'https://github.com/Kidoz-SDK/kidoz-ios-frameworks/raw/main/KidozSDK/{POD_VERSION}/KidozSDK-{POD_VERSION}.zip' }
+    spec.source             = { :http => 'https://github.com/Kidoz-SDK/kidoz-ios-frameworks/raw/main/KidozSDK/{POD_VERSION}/KidozSDK.zip' }
     spec.swift_version      = "5.3"
     spec.user_target_xcconfig    = { "OTHER_LDFLAGS" => "-lc++ -ObjC" }
   
@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
     spec.ios.deployment_target  = "11.0"
   
     # Published binaries
-    spec.vendored_frameworks = "KidozSDK/KidozSDK.xcframework"
+    spec.vendored_frameworks = "KidozSDK.xcframework"
 
     # Privacy Report
     spec.resource_bundles = {'PrivacyInfo' => ['KidozSDK/PrivacyInfo.xcprivacy']}
