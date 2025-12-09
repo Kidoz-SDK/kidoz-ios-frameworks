@@ -8,13 +8,13 @@ Pod::Spec.new do |spec|
     spec.documentation_url  = "https://github.com/Kidoz-SDK/kidoz-mobile-sdk/blob/main/README.md"
     spec.license            = "https://github.com/Kidoz-SDK/kidoz-mobile-sdk/blob/main/LICENSE.md"
     spec.author             = { "KIDOZ LTD" => "maria@kidoz.net" }
-    spec.source             = { :http => 'https://github.com/Kidoz-SDK/kidoz-ios-frameworks/raw/main/mediation/applovin/{POD_VERSION}/KidozApplovinAdapter-{POD_VERSION}.zip' }
+    spec.source             = { :http => 'https://github.com/Kidoz-SDK/kidoz-ios-frameworks/raw/main/mediation/applovin/{POD_VERSION}/KidozApplovinAdapter.zip' }
     spec.swift_version      = "5.3"
 	spec.dependency 'AppLovinSDK', '>= 11.4.4'
-    spec.dependency 'KidozSDK', '>= {SDK_POD_VERSION}'
+    spec.dependency 'KidozSDK', '~> {MINIMUN_CORE_VERSION}'
     # Supported deployment targets
     spec.ios.deployment_target  = "11.0"
   
     # Published binaries
-    spec.vendored_frameworks = "KidozApplovinAdapter/KidozApplovinAdapter.xcframework"
+    spec.vendored_frameworks = "KidozApplovinAdapter.xcframework"
   end

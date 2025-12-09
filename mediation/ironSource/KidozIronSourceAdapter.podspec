@@ -8,12 +8,12 @@ Pod::Spec.new do |spec|
     spec.documentation_url  = "https://github.com/Kidoz-SDK/kidoz-mobile-sdk/blob/main/README.md"
     spec.license            = "https://github.com/Kidoz-SDK/kidoz-mobile-sdk/blob/main/LICENSE.md"
     spec.author             = { "KIDOZ LTD" => "maria@kidoz.net" }
-    spec.source             = { :http => 'https://github.com/Kidoz-SDK/kidoz-ios-frameworks/raw/main/mediation/ironSource/{POD_VERSION}/KidozIronSourceAdapter-{POD_VERSION}.zip' }
+    spec.source             = { :http => 'https://github.com/Kidoz-SDK/kidoz-ios-frameworks/raw/main/mediation/ironSource/{POD_VERSION}/KidozIronSourceAdapter.zip' }
     spec.swift_version      = "5.3"
     spec.dependency 'IronSourceSDK', '>= 7.6.0.0'
-    spec.dependency 'KidozSDK', '>= {SDK_POD_VERSION}'
+    spec.dependency 'KidozSDK', '~> {MINIMUN_CORE_VERSION}'
     spec.ios.deployment_target  = "11.0"
   
     # Published binaries
-    spec.vendored_frameworks = "KidozIronSourceAdapter/KidozIronSourceAdapter.xcframework"
+    spec.vendored_frameworks = "KidozIronSourceAdapter.xcframework"
   end

@@ -8,13 +8,13 @@ Pod::Spec.new do |spec|
     spec.documentation_url  = "https://github.com/Kidoz-SDK/kidoz-mobile-sdk/blob/main/README.md"
     spec.license            = "https://github.com/Kidoz-SDK/kidoz-mobile-sdk/blob/main/LICENSE.md"
     spec.author             = { "KIDOZ LTD" => "maria@kidoz.net" }
-    spec.source             = { :http => 'https://github.com/Kidoz-SDK/kidoz-ios-frameworks/raw/main/mediation/admob/{POD_VERSION}/KidozAdmobAdapter-{POD_VERSION}.zip' }
+    spec.source             = { :http => 'https://github.com/Kidoz-SDK/kidoz-ios-frameworks/raw/main/mediation/admob/{POD_VERSION}/KidozAdmobAdapter.zip' }
     spec.swift_version      = "5.3"
 	spec.dependency 'Google-Mobile-Ads-SDK', '>= 12.0.0'
-    spec.dependency 'KidozSDK', '>= {SDK_POD_VERSION}'
+    spec.dependency 'KidozSDK', '~> {SDK_POD_VERSION}'
     # Supported deployment targets
     spec.ios.deployment_target  = "12.0"
   
     # Published binaries
-    spec.vendored_frameworks = "KidozAdmobAdapter/KidozAdmobAdapter.xcframework"
+    spec.vendored_frameworks = "KidozAdmobAdapter.xcframework"
   end
