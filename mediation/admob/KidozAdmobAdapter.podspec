@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
     spec.homepage           = "https://kidoz.net/"
     spec.documentation_url  = "https://github.com/Kidoz-SDK/kidoz-mobile-sdk/blob/main/README.md"
     spec.license            = "https://github.com/Kidoz-SDK/kidoz-mobile-sdk/blob/main/LICENSE.md"
-    spec.author             = { "KIDOZ LTD" => "maria@kidoz.net" }
+    spec.author             = { "KIDOZ LTD" => "sdk@kidoz.net" }
     spec.source             = { :http => 'https://github.com/Kidoz-SDK/kidoz-ios-frameworks/raw/main/mediation/admob/{POD_VERSION}/KidozAdmobAdapter.zip' }
     spec.swift_version      = "5.3"
 	spec.dependency 'Google-Mobile-Ads-SDK', '>= 12.0.0'
