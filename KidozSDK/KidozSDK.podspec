@@ -3,7 +3,6 @@ Pod::Spec.new do |spec|
     spec.version            = "{POD_VERSION}"
     spec.summary            = "KIDOZ SDK provides effective quality monetization that is fully COPPA and GDPR compliant."
     spec.description        = "KIDOZ SDK provides effective quality monetization that is fully COPPA and GDPR compliant."
-    spec.platform = :ios, '11.0'
     spec.homepage           = "https://kidoz.net/"
     spec.documentation_url  = "https://github.com/Kidoz-SDK/kidoz-mobile-sdk/blob/main/README.md"
     spec.license            = "https://github.com/Kidoz-SDK/kidoz-mobile-sdk/blob/main/LICENSE.md"
@@ -13,7 +12,7 @@ Pod::Spec.new do |spec|
     spec.user_target_xcconfig    = { "OTHER_LDFLAGS" => "-lc++ -ObjC" }
   
     # Supported deployment targets
-    spec.ios.deployment_target  = "11.0"
+    spec.ios.deployment_target  = "14.0"
   
     # Published binaries
     spec.vendored_frameworks = "KidozSDK.xcframework"
