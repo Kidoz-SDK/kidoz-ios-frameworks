@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
     spec.author             = { "KIDOZ LTD" => "sdk@kidoz.net" }
     spec.source             = { :http => 'https://github.com/Kidoz-SDK/kidoz-ios-frameworks/raw/main/mediation/admob/{POD_VERSION}/KidozAdmobAdapter.zip' }
     spec.swift_version      = "5.3"
-	spec.dependency 'Google-Mobile-Ads-SDK', '>= 12.0.0'
+	spec.dependency 'Google-Mobile-Ads-SDK', '>= 13.7.0'
     spec.dependency 'KidozSDK', '~> {MINIMUM_CORE_VERSION}'
     # Supported deployment targets
     spec.ios.deployment_target  = "14.0"
