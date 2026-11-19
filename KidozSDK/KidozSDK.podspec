@@ -16,4 +16,8 @@ Pod::Spec.new do |spec|
   
     # Published binaries
     spec.vendored_frameworks = "KidozSDK.xcframework"
+
+    # Privacy manifest. CocoaPods links static vendored frameworks without embedding them,
+    # so the PrivacyInfo.xcprivacy inside the framework never reaches the app. Ship it as a resource bundle.
+    spec.resource_bundles = { "KidozSDKPrivacy" => ["KidozSDK.xcframework/ios-arm64/KidozSDK.framework/PrivacyInfo.xcprivacy"] }
   end
